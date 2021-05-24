@@ -149,22 +149,9 @@ body{
 }
 
 
-
-/* !The designs were created to the following widths:
-
-! - Mobile: 375px
-! - Desktop: 1440px */
-
-
-/* Media queries for Desktops */
-
-@media (min-width: 768px) {
-}
-
 /* Media queries for Mobiles */
 
 @media (max-width: 375px) { 
-
     .calculate{
         width: 300px;
     }
