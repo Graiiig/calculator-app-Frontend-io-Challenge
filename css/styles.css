@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+
+
+body{
+    font-family: "Spartan";
+    font-weight: 700;
+    background-color: var(--main-bg-color);    
+}
+
+.upper{
+    color: var(--upper-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.upper>span{
+    font-size: 30px;
+}
+
+.upper-right-switch{
+    display: flex;
+    align-items: center;
+}
+
+.upper-right-switch>span{
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.upper-right{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.switch-numbers{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60px;
+}
+
+.switch {
+    border-radius: 10px;
+    background-color: var(--toggle-keypad-bg);
+    height: 20px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.switch-button{
+    margin-top: 3.5px;
+    border-radius: 100%;
+    height: 13px;
+    width: 13px;
+    background-color: var(--toggle-keypad-bg);
+}
+
+.active.switch-button{
+    background-color: var(--key-equal);
+}
+
+.switch-button:hover{
+    background-color: var(--key-equal);
+    cursor: pointer;
+}
+
+.numbers{
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--toggle-keypad-bg);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.calculate{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    cursor: pointer;
+}
+
+.key:active{
+    box-shadow: 0 0 0 0  var(--key-shadow);
+    transform: translateY(5px);
+    transition: all 0.1s ease-out;
+}
+
+.key-numbers{
+    background-color: var(--key-bg);
+    font-size: 32px;
+    color: var(--key-text-color);
+    box-shadow: 0 4px var(--key-shadow);
+}
+
+.del-reset {
+    font-size: 15px;
+    background-color: var(--key-reset-del-bg);
+    color: var(--white);
+    box-shadow: 0 4px var(--key-reset-del-shadow);
+}
+
+.equal{
+    color: var(--text);
+    grid-column: 3 / 5;
+    background-color: var(--key-equal);
+    box-shadow: 0 4px var(--key-equal-shadow);
+    grid-row: 5;
+}
+
+.reset{
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+.result{
+    background-color: var(--screen-bg);
+    border-radius: 10px;
+    height: 100px;
+    color :var(--upper-text);
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result>span{
+    float: right;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+
+
+/* !The designs were created to the following widths:
+
+! - Mobile: 375px
+! - Desktop: 1440px */
+
+
+/* Media queries for Desktops */
+
+@media (min-width: 768px) {
+}
+
+/* Media queries for Mobiles */
+
+@media (max-width: 375px) { 
+
+    .calculate{
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,23 @@
+:root{
+    
+    /* Backgrounds */
+    --main-bg-color : hsl(222, 26%, 31%);
+    --toggle-keypad-bg : hsl(223, 31%, 20%);
+    --screen-bg : hsl(224, 36%, 15%);
+
+    /* Keys */
+    --key-reset-del-bg : hsl(225, 21%, 49%);
+    --key-reset-del-shadow : hsl(224, 28%, 35%);
+
+    --key-equal : hsl(6, 63%, 50%);
+    --key-equal-shadow : hsl(6, 70%, 34%);
+
+    --key-bg: hsl(30, 25%, 89%);
+    --key-shadow : hsl(28, 16%, 65%);
+
+    /* Text */
+    --key-text-color: hsl(221, 14%, 31%);
+    --white: rgb(255, 255, 255);
+    --upper-text : rgb(255, 255, 255);
+    --text : rgb(255, 255, 255);
+}
