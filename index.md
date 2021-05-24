@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Frontend Mentor - Calculator app solution
 
-You can use the [editor on GitHub](https://github.com/Graiiig/calculator-app-Frontend-io-Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is my solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects ! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of contents
 
-### Markdownn
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Markdown nis a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The challenge
 
-```markdown
-Syntax highlighted code block
+Users should be able to:
 
-# Header 1
-## Header 2
-### Header 3
+- See the size of the elements adjust based on their device's screen size ✔️
+- Perform mathmatical operations like addition, subtraction, multiplication, and division ✔️
+- Adjust the color theme based on their preference ✔️
+- **Bonus**: Have their initial theme preference checked using  `prefers-color-scheme` and have any additional changes saved in the browser ✔️
 
-- Bulleted
-- List
+### Screenshot
 
-1. Numbered
-2. List
+![image](https://user-images.githubusercontent.com/15630543/119362368-e78b6080-bcac-11eb-942b-5e36b485a0dc.png)
 
-**Bold** and _Italic_ and `Code` text
+![image](https://user-images.githubusercontent.com/15630543/119362473-0689f280-bcad-11eb-88a4-3849c5c0eb69.png)
+### Built with
 
-[Link](url) and ![Image](src)
-```
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid (first I used Grid)
+- Mobile-first workflow
+- Vanilla JS (first time Vanilla JS only, I used to use Jquery most of the time)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### What I learned
 
-### Jekyll Themes
+- I learned to use CSS grid ruleset, in a basic way.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Graiiig/calculator-app-Frontend-io-Challenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- I also learned to use vars in CSS for the themes.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+### Useful resources
+
+- StackOverflow
+- w3schools 
+
+## Author
+
+- Website - [Verguin Grégory](https://www.verguingregory.fr/)
+- Frontend Mentor - [@Graiiig](https://www.frontendmentor.io/profile/Graiiig)
+- LinkedIn - [Verguin Grégory](https://www.linkedin.com/in/verguin-gregory-php/)
+
