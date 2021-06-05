@@ -32,7 +32,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid (first I used Grid)
+- CSS Grid (first time I used Grid)
 - Mobile-first workflow
 - Vanilla JS (first time Vanilla JS only, I used to use Jquery most of the time)
 
